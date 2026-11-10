@@ -12,11 +12,11 @@ import (
 
 	"github.com/Rican7/retry/backoff"
 	"github.com/Rican7/retry/strategy"
-	"github.com/k3s-io/kine/pkg/broadcaster"
-	"github.com/k3s-io/kine/pkg/drivers"
-	"github.com/k3s-io/kine/pkg/metrics"
-	"github.com/k3s-io/kine/pkg/query"
-	"github.com/k3s-io/kine/pkg/server"
+	"github.com/nirvati/microkine/pkg/broadcaster"
+	"github.com/nirvati/microkine/pkg/drivers"
+	"github.com/nirvati/microkine/pkg/metrics"
+	"github.com/nirvati/microkine/pkg/query"
+	"github.com/nirvati/microkine/pkg/server"
 	"github.com/sirupsen/logrus"
 )
 

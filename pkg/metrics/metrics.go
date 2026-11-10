@@ -3,7 +3,7 @@ package metrics
 import (
 	"time"
 
-	"github.com/k3s-io/kine/pkg/query"
+	"github.com/nirvati/microkine/pkg/query"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 )

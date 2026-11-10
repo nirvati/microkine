@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/k3s-io/kine/pkg/server"
-	"github.com/k3s-io/kine/pkg/util"
+	"github.com/nirvati/microkine/pkg/server"
+	"github.com/nirvati/microkine/pkg/util"
 )
 
 var ErrUnknownDriver = errors.New("unknown driver")

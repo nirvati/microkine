@@ -1,3 +1,13 @@
+# microkine
+
+A trimmed-down [kine](https://github.com/k3s-io/kine) for [Nirvati OS](https://gitlab.com/nirvati-ug/nirvati-os): only the SQLite
+backend (and etcd pass-through) is kept. The MySQL, PostgreSQL, NATS, t4/S3, memory, remote and
+split backends and their dependencies are removed, which makes binaries that embed kine about 16 MB
+smaller. Module path: `github.com/nirvati/microkine`. Releases follow upstream kine
+(`vX.Y.Z-micro.N` is based on kine `vX.Y.Z`).
+
+---
+
 Kine (Kine is not etcd)
 =======================
 

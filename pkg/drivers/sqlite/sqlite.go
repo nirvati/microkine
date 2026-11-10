@@ -10,12 +10,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/k3s-io/kine/pkg/drivers"
-	"github.com/k3s-io/kine/pkg/drivers/generic"
-	"github.com/k3s-io/kine/pkg/logstructured"
-	"github.com/k3s-io/kine/pkg/logstructured/sqllog"
-	"github.com/k3s-io/kine/pkg/query"
-	"github.com/k3s-io/kine/pkg/server"
+	"github.com/nirvati/microkine/pkg/drivers"
+	"github.com/nirvati/microkine/pkg/drivers/generic"
+	"github.com/nirvati/microkine/pkg/logstructured"
+	"github.com/nirvati/microkine/pkg/logstructured/sqllog"
+	"github.com/nirvati/microkine/pkg/query"
+	"github.com/nirvati/microkine/pkg/server"
 	"github.com/sirupsen/logrus"
 )
 

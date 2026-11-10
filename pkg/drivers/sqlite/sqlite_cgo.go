@@ -5,7 +5,7 @@ package sqlite
 import (
 	"fmt"
 
-	"github.com/k3s-io/kine/pkg/server"
+	"github.com/nirvati/microkine/pkg/server"
 	"github.com/mattn/go-sqlite3"
 )
 

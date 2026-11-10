@@ -3,8 +3,8 @@ package drivers
 import (
 	"time"
 
-	"github.com/k3s-io/kine/pkg/drivers/generic"
-	"github.com/k3s-io/kine/pkg/tls"
+	"github.com/nirvati/microkine/pkg/drivers/generic"
+	"github.com/nirvati/microkine/pkg/tls"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

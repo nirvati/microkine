@@ -7,7 +7,7 @@ RUN apk -U add bash coreutils git gcc musl-dev vim less curl wget ca-certificate
 RUN apk -U add docker-cli file findutils py3-pip && \
     pip install --break-system-packages kubernetes==v35.0.0 termplotlib==v0.3.4
 
-ENV KINE_SOURCE=/go/src/github.com/k3s-io/kine/
+ENV KINE_SOURCE=/go/src/github.com/nirvati/microkine/
 ENV HOME=${KINE_SOURCE}
 WORKDIR ${KINE_SOURCE}
 

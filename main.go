@@ -5,7 +5,7 @@ import (
 	"errors"
 	"os"
 
-	"github.com/k3s-io/kine/pkg/app"
+	"github.com/nirvati/microkine/pkg/app"
 	"github.com/sirupsen/logrus"
 )
 

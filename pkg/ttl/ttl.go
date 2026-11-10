@@ -17,7 +17,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/k3s-io/kine/pkg/server"
+	"github.com/nirvati/microkine/pkg/server"
 )
 
 const (

@@ -6,8 +6,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/k3s-io/kine/pkg/server"
-	"github.com/k3s-io/kine/pkg/ttl"
+	"github.com/nirvati/microkine/pkg/server"
+	"github.com/nirvati/microkine/pkg/ttl"
 )
 
 type Log interface {

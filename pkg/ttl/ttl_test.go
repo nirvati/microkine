@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/k3s-io/kine/pkg/server"
+	"github.com/nirvati/microkine/pkg/server"
 )
 
 var errListFailed = errors.New("list failed")

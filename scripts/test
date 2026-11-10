@@ -25,31 +25,7 @@ echo "Did test-run-sqlite $?"
 . ./scripts/test-run-litestream
 echo "Did test-run-litestream $?"
 
-. ./scripts/test-run-mysql
-echo "Did test-run-mysql $?"
-
-. ./scripts/test-run-postgres
-echo "Did test-run-postgres $?"
-
-. ./scripts/test-run-cockroachdb
-echo "Did test-run-cockroachdb $?"
-
 . ./scripts/test-run-schema-migration
 echo "Did test-run-schema-migration $?"
-
-. ./scripts/test-run-nats
-echo "did test-nats $?"
-
-. ./scripts/test-run-nats-embedded
-echo "did test-nats-embedded $?"
-
-. ./scripts/test-run-nats-socket
-echo "did test-nats-socket $?"
-
-. ./scripts/test-run-t4
-echo "did test-t4 $?"
-
-. ./scripts/test-run-t4-s3
-echo "did test-t4-s3 $?"
 
 exit 0

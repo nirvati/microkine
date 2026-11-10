@@ -48,7 +48,6 @@ updates:
           - go.etcd.io/*
     ignore:
       - dependency-name: k8s.io/*
-      - dependency-name: "github.com/nats-io/nats-server/v2"
 
    # Maintain dependencies for K8s monthly
   - package-ecosystem: "gomod"

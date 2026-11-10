@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/k3s-io/kine/pkg/server"
+	"github.com/nirvati/microkine/pkg/server"
 )
 
 // Constructor is a function that takes a context, waitgroup, and config and returns a leaderElect bool, a server.Backend and an error

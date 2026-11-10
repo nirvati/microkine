@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/k3s-io/kine/pkg/server"
+	"github.com/nirvati/microkine/pkg/server"
 	"github.com/sirupsen/logrus"
 )
 

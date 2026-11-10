@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/k3s-io/kine/pkg/app"
-	"github.com/k3s-io/kine/pkg/drivers/sqlite"
-	"github.com/k3s-io/kine/pkg/endpoint"
+	"github.com/nirvati/microkine/pkg/app"
+	"github.com/nirvati/microkine/pkg/drivers/sqlite"
+	"github.com/nirvati/microkine/pkg/endpoint"
 	"github.com/sirupsen/logrus"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/kubernetes"
